@@ -44,9 +44,25 @@ To build a predictive model that estimates movie ratings using attributes such a
 - Feature Importance Barplot
 - Rating Distribution Boxplot
 
-All saved in `/images/` folder.
+## images
+![Screenshot 2025-04-26 120034](https://github.com/user-attachments/assets/c3c289e4-69d0-4b8f-8d93-305c63ef0343)
+![Screenshot 2025-04-26 120059](https://github.com/user-attachments/assets/8c26c3f5-fced-43d3-929c-80e0c8101ec0)
+![Screenshot 2025-04-26 120139](https://github.com/user-attachments/assets/a4b7573f-ce41-4505-a835-145c2a65287e)
+![Screenshot 2025-04-26 120117](https://github.com/user-attachments/assets/eb1ef815-0ab5-4915-99ea-f68e3de0e8a5)
 
----
+## Project Insights
+
+-The dataset was thoroughly cleaned, handling duplicates and missing values to ensure data quality.
+
+-Categorical features such as Director, Genre, Actor, Language, and Country were encoded for model compatibility.
+
+-Feature engineering significantly improved prediction accuracy by introducing metrics like Director Success Rate, Genre Average Rating, and Actor Average Rating.
+
+-A Random Forest Regressor was chosen for its robustness and ability to handle mixed data types.
+
+-Achieved strong model performance with R² Score and RMSE used as key evaluation metrics.
+
+-Visualization tools like heatmaps and bar plots provided interpretability and insights into feature importance and data distribution.
 
 ##  Results
 
@@ -57,7 +73,5 @@ All saved in `/images/` folder.
 
 ##  How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/Movie-Rating-Prediction-ML.git
-   cd Movie-Rating-Prediction-ML
+-<a href="https://github.com/a-aanchal/Movie-Rating-Prediction/blob/main/python.py">Codes</a>
+
